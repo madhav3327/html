@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://img.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_53876-129804.jpg?t=st=1732122665~exp=1732126265~hmac=c56b552cfe64ca05cb67b3b813bddba3dbd0210968e907909bbe50a1454b7794&w=1380");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+        .logo{
+            background-color: black;
+            padding: 15px;
+        }
+        .logo img{
+            height: 40px; 
+        }
+        .nav{
+            background-color: white;
+            
+            display:flex;
+            justify-content: flex-end;
+            gap: 20px;
+        }
+        .nav a{
+            text-decoration: none;
+            color: black;
+            padding: 5px;
+        }
+        .nav a:hover{
+            background-color: gray;
+            color: chartreuse;
+        }
+        .signup-card{
+            
+            display: flex;
+            flex-direction: column;
+            width:250px;
+            height: 250px;
+            margin-left: 390px;
+            margin-top: 80px;
+            border-radius: 15px;
+            background-color: rgba(0, 0, 0, 0.4);
+            box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            padding-top: 80px;
+            align-items: center;
+            
+        }
+        .input-ele{
+            margin: 5px;
+            padding:8px;
+            border-radius: 15px;
+            border: none;
+            background-color:rgba(0, 0, 0, 0.4) ;
+            width: 180px;
+            color: white;
+            
+        }
+        .input-ele:hover{
+            background-color: white;
+            color: black;
+        }
+        .sign{
+            margin: 10px;
+           
+            font-size: 10px;
+            padding: 10px;
+            border-radius: 15px;
+            border: none;
+            background-color:rgba(0, 0, 255, 0.3) ;
+            color: white;
+        }
+        .login{
+            margin: 10px;
+           
+            font-size: 10px;
+            padding: 9px;
+            border-radius: 15px;
+            border: none;
+            background-color:rgba(0, 255, 0, 0.3) ;
+            color: white;
+            width: 80px;
+        }
+        .sign:hover{
+            background-color:rgba(0, 0, 256, 0.7) ;
+        }
+        .login:hover{
+            background-color:rgba(0, 255, 0, 0.7)
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="/Img/MasterWoodLogo.png" alt="logo name ">Master Wood
+    </div>
+    <div class="nav">
+        <a href="">home</a>
+        <a href="">Contact us</a>
+        <a href="">logIn</a>
+        <a href="">signIn</a>
+    </div>
+    <div class="signup-card">
+        
+        <input class="input-ele" type="text" name="username" placeholder="enter username">
+         
+        <input class="input-ele" type="password" name="pass" placeholder="enter password">
+       <div class="button"><button class="sign">Signin instead</button>
+        <button class="login">login</button>
+    </div>
+      
+    </div>
+</body>
+</html>
